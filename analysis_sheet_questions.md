@@ -27,6 +27,7 @@ QUESTIONS:
 13. Many of the non-comparison sorts are linear, so why does Python use an  O(nlog(n))  comparison sort?
 
 ANSWERS:
+
 1. All of these have the same order of growth: O(n^3)
 
 2. O(n^3)
@@ -38,3 +39,7 @@ ANSWERS:
 5. f1 + f2 is in either O(g) or O(h) (depending on which one is "worse")
 
 6. f1 ⋅ f2 is in O(gh)
+
+7. Sorts data with no more than 2 elements using a comparison operator. The best and worst casenario for a comparison sort is n and n^2 respectively. Same is true for all sorts, except the worse casenario possible is n^2 * k.
+
+8. 
