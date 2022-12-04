@@ -48,4 +48,8 @@ ANSWERS:
 
 10. A stable sort will not sort two numbers if they are of the same size. in practice, this may save time when the sort is frequently running into the same number right next to each other.
 
+11. 
 
+12. 
+
+13. Timsort, the sort used by python, is stable. Despite having a somewhat high order of growth compared to other sorts, other sorts often are unstable.
