@@ -53,3 +53,12 @@ ANSWERS:
 12. Python uses Timsort, which is stable. C uses a variant of quicksort, which isn't stable.
 
 13. Timsort, the sort used by python, is stable. Despite having a somewhat high order of growth compared to other sorts, other sorts often are unstable.
+
+Order of growth names:
+- Constant
+- Logarithmic
+- Linear
+- Linearithmic
+- Quadratic
+- Cubic
+- Exponential
