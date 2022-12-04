@@ -42,4 +42,6 @@ ANSWERS:
 
 7. Sorts data with no more than 2 elements using a comparison operator. The best and worst casenario for a comparison sort is n and n^2 respectively. Same is true for all sorts, except the worse casenario possible is n^2 * k.
 
-8. 
+8. Bubble sort involves taking every adjacent pair of data and swapping them if the first piece of data is larger than the second. Best case scenario, this will never happen and only n - 1 steps are required. Worse case scenario, this has to be done for every single pair, requiring n^2 - 2n - 1 steps. Not ideal for enormous amounts of data.
+
+
