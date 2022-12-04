@@ -48,7 +48,7 @@ ANSWERS:
 
 10. A stable sort will not sort two numbers if they are of the same size. in practice, this may save time when the sort is frequently running into the same number right next to each other.
 
-11. 
+11. bogosort just randomly sorts stuff and hopes for the best. This makes it the worst sorting algorithm.
 
 12. Python uses Timsort, which is stable. C uses a variant of quicksort, which isn't stable.
 
