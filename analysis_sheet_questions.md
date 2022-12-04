@@ -44,4 +44,8 @@ ANSWERS:
 
 8. Bubble sort involves taking every adjacent pair of data and swapping them if the first piece of data is larger than the second. Best case scenario, this will never happen and only n - 1 steps are required. Worse case scenario, this has to be done for every single pair, requiring n^2 - 2n - 1 steps. Not ideal for enormous amounts of data.
 
+9. LSD radix sort has an order of growth of O(n * k), but requires the data to be stable. MSD radix sort does not require that, but the sorting will be unstable.
+
+10. A stable sort will not sort two numbers if they are of the same size. in practice, this may save time when the sort is frequently running into the same number right next to each other.
+
 
